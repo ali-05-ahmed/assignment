@@ -1,0 +1,12 @@
+var num;
+document.writeln("<h1>Value after variable declaration is: " + num + "</h1>");
+num = 5;
+document.writeln("<h1>Initial value is: " + num + "</h1>");
+num++;
+document.writeln("<h1>Value after increment is: " + num + "</h1>");
+num += 7;
+document.writeln("<h1>Value after addition is: " + num + "</h1>");
+num--;
+document.writeln("<h1>Value after decrement is: " + num + "</h1>");
+num = num % 3;
+document.writeln("<h1>The remainder after dividing by 3 is: " + num + "</h1>");
